@@ -1,0 +1,52 @@
+version: "3"
+services:
+  localdb:
+    image: bitnami/mongodb:4.4.8
+    environment:
+      MONGODB_USERNAME: smearch
+      MONGODB_PASSWORD: secret
+      MONGODB_DATABASE: sme-search
+    ports:
+      - "${LOCAL_DB_PORT:-27717}:27017"
+
+  initializedb:
+    build: mock
+    environment:
+      PREVENT_EXIT: "${PREVENT_SERVICE_EXIT:-true}"
+    depends_on:
+      - localdb
+    healthcheck:
+      test: ["CMD", "nc", "-z", "127.0.0.1", "80"]
+      interval: 2s
+      timeout: 3s
+      retries: 3
+      start_period: 20s
+
+  sectoravg:
+    build: sector-average-service
+    environment:
+      NODE_ENV: development
+      ALLOW_CORS_ANY_ORIGIN: "true"
+      MONGO_USE_SRV: "false"
+      NO_COLOR: "y"
+      STAGE: dev
+    depends_on:
+      - localdb
+    ports:
+      - "${LOCAL_SECTOR_AVERAGE_SERVICE_PORT:-3003}:3003"
+    secrets:
+      - sector-average-service
+
+  client:
+    build: sme-public-profile-client
+    environment:
+      NODE_ENV: development
+      PUBLIC_VAR_CLIENT_ENV: "local"
+      PUBLIC_VAR_GOOGLE_ANALYTICS_ID: "x"
+      PUBLIC_VAR_SECTOR_AVERAGE_SERVICE_PROTO_DOMAIN: "${SECTOR_AVERAGE_SERVICE_PROTO_DOMAIN:-http://localhost:3003}"
+    ports:
+      - "${LOCAL_NEXTJS_PORT:-3000}:3000"
+
+secrets:
+  sector-average-service:
+    file: ./local-stack-secrets.env

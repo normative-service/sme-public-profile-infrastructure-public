@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# Copyright 2022 Meta Mind AB
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+if [[ "$1" == "" || "$1" == "--help" ]] ; then
+  echo "USAGE:"
+  echo "  checkout <branch-prefix>"
+  echo ""
+  echo "This switches branch on this repository and all submodule where the given branch is available."
+  echo "Branch prefixes like 'SMCH-xx' can be used, and the first mathcing branch will be chosen."
+  echo "If the branch does not exist on a submodule, it will remain on whatever branch it was already on."
+  exit
+fi
+branch_name=$1
+
+infra_find_submodules() {
+  git submodule | awk '{print $2}'
+}
+
+infra_find_branch_name() {
+  local name=$1
+  git branch -r --list "origin/${name}"'*' | head -n1 | sed 's| *origin/||'
+}
+
+infra_switch_branch() {
+  local module=$1
+  local name=$2
+  local branch=`(cd $module && git fetch >/dev/null 2>&1 && infra_find_branch_name $name)`
+  [[ "${branch}" != "" ]] && (cd $module && git checkout $branch)
+}
+
+git fetch
+[[ `infra_find_branch_name $branch_name` != "" ]] && git checkout `infra_find_branch_name $branch_name`
+
+for module in `infra_find_submodules` ; do
+  echo "Switching $module to $branch_name..."
+  infra_switch_branch $module $branch_name
+done

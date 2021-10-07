@@ -1,0 +1,6 @@
+[submodule "sector-average-service"]
+	path = sector-average-service
+	url = git@github.com:normative-io/sector-average-service.git
+[submodule "sme-public-profile-client"]
+	path = sme-public-profile-client
+	url = git@github.com:normative-io/sme-public-profile-client.git

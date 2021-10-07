@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Local MongoDB volume mount point
+data
+
+# Environments
+.env

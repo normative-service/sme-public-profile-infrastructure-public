@@ -1,0 +1,837 @@
+[{
+  "_id": {
+    "isic": "6020",
+    "region": "WM"
+  },
+  "isic": "6020",
+  "region": "WM",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 275132.4834112694
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 8235.275166944035
+        },
+        {
+          "category": "steam",
+          "value": 5367.767317915452
+        },
+        {
+          "category": "electricity",
+          "value": 292466.26418159273
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "waste",
+          "value": 12735.8652949342
+        },
+        {
+          "category": "product",
+          "value": 167430.23092863237
+        },
+        {
+          "category": "processing",
+          "value": 10672.687151290776
+        },
+        {
+          "category": "hotel",
+          "value": 10884.799063166905
+        },
+        {
+          "category": "energyRelated",
+          "value": 34254.52504508871
+        },
+        {
+          "category": "transport",
+          "value": 18846.155396322247
+        },
+        {
+          "category": "leasing",
+          "value": 2079.0948761600953
+        },
+        {
+          "category": "electricity",
+          "value": 101.56575750131645
+        },
+        {
+          "category": "travel",
+          "value": 70410.36351277141
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "2651",
+    "region": "NO"
+  },
+  "isic": "2651",
+  "region": "NO",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 20760.000827730957
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "transport",
+          "value": 36817.746635950585
+        },
+        {
+          "category": "waste",
+          "value": 30684.362621841847
+        },
+        {
+          "category": "processing",
+          "value": 16539.619465531036
+        },
+        {
+          "category": "electricity",
+          "value": 44.91372678333852
+        },
+        {
+          "category": "energyRelated",
+          "value": 43421.06136425139
+        },
+        {
+          "category": "hotel",
+          "value": 8027.400269493509
+        },
+        {
+          "category": "travel",
+          "value": 38198.10535631388
+        },
+        {
+          "category": "product",
+          "value": 250902.2449025842
+        },
+        {
+          "category": "leasing",
+          "value": 2409.8638314159234
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 9079.553816544852
+        },
+        {
+          "category": "electricity",
+          "value": 194572.92541760416
+        },
+        {
+          "category": "steam",
+          "value": 24321.874547011517
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "5110",
+    "region": "ID"
+  },
+  "isic": "5110",
+  "region": "ID",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 874935.2470414187
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "electricity",
+          "value": 276170.32827822695
+        },
+        {
+          "category": "steam",
+          "value": 10027.442281298248
+        },
+        {
+          "category": "heat",
+          "value": 11645.399976661718
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "electricity",
+          "value": 59.391222100502816
+        },
+        {
+          "category": "travel",
+          "value": 17214.96236937749
+        },
+        {
+          "category": "transport",
+          "value": 41188.12404973767
+        },
+        {
+          "category": "waste",
+          "value": 11818.254852610764
+        },
+        {
+          "category": "hotel",
+          "value": 28112.84572224163
+        },
+        {
+          "category": "product",
+          "value": 268613.74105935544
+        },
+        {
+          "category": "energyRelated",
+          "value": 279227.00169967994
+        },
+        {
+          "category": "leasing",
+          "value": 4249.680481857426
+        },
+        {
+          "category": "processing",
+          "value": 7286.335611607632
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "4799",
+    "region": "FR"
+  },
+  "isic": "4799",
+  "region": "FR",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 28823.96989364744
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "leasing",
+          "value": 904.7752345220905
+        },
+        {
+          "category": "energyRelated",
+          "value": 15859.24749782361
+        },
+        {
+          "category": "processing",
+          "value": 2018.9762531412714
+        },
+        {
+          "category": "electricity",
+          "value": 12.88956307334772
+        },
+        {
+          "category": "product",
+          "value": 34268.443313213254
+        },
+        {
+          "category": "waste",
+          "value": 6151.6385167989065
+        },
+        {
+          "category": "transport",
+          "value": 2704.1423379342946
+        },
+        {
+          "category": "hotel",
+          "value": 4123.777708615277
+        },
+        {
+          "category": "travel",
+          "value": 12546.906268294626
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 2588.255684809758
+        },
+        {
+          "category": "electricity",
+          "value": 35148.86280573897
+        },
+        {
+          "category": "steam",
+          "value": 10318.64149939914
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "1729",
+    "region": "GB"
+  },
+  "isic": "1729",
+  "region": "GB",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 14688.872430940568
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 18463.63932351837
+        },
+        {
+          "category": "electricity",
+          "value": 323212.45773713756
+        },
+        {
+          "category": "steam",
+          "value": 16489.5849876562
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "waste",
+          "value": 8476.332002117966
+        },
+        {
+          "category": "processing",
+          "value": 32527.782416329937
+        },
+        {
+          "category": "travel",
+          "value": 19698.803385404204
+        },
+        {
+          "category": "hotel",
+          "value": 3162.1489452708943
+        },
+        {
+          "category": "energyRelated",
+          "value": 25245.94148396491
+        },
+        {
+          "category": "leasing",
+          "value": 1064.9526966290814
+        },
+        {
+          "category": "electricity",
+          "value": 39.30498028202921
+        },
+        {
+          "category": "product",
+          "value": 98320.55983621931
+        },
+        {
+          "category": "transport",
+          "value": 8523.755958518683
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "0620",
+    "region": "IN"
+  },
+  "isic": "0620",
+  "region": "IN",
+  "scopes": [
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "processing",
+          "value": 3716.429507143063
+        },
+        {
+          "category": "waste",
+          "value": 17409.145059799303
+        },
+        {
+          "category": "leasing",
+          "value": 126.76203056906049
+        },
+        {
+          "category": "product",
+          "value": 117021.11794590097
+        },
+        {
+          "category": "electricity",
+          "value": 137.15367008801323
+        },
+        {
+          "category": "travel",
+          "value": 9472.305265767098
+        },
+        {
+          "category": "energyRelated",
+          "value": 31484.974052233818
+        },
+        {
+          "category": "hotel",
+          "value": 618.9270575235372
+        },
+        {
+          "category": "transport",
+          "value": 8387.143549002574
+        }
+      ]
+    },
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 4021844.0086279097
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "steam",
+          "value": 2146.656603840263
+        },
+        {
+          "category": "heat",
+          "value": 263.34761137106426
+        },
+        {
+          "category": "electricity",
+          "value": 703691.8479648669
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "6201",
+    "region": "RU"
+  },
+  "isic": "6201",
+  "region": "RU",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 3979.2464764827764
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "hotel",
+          "value": 1706.416983986591
+        },
+        {
+          "category": "product",
+          "value": 115949.99857193165
+        },
+        {
+          "category": "energyRelated",
+          "value": 26012.44244763267
+        },
+        {
+          "category": "electricity",
+          "value": 23.118334817627264
+        },
+        {
+          "category": "waste",
+          "value": 12618.136684686944
+        },
+        {
+          "category": "travel",
+          "value": 13205.517718873998
+        },
+        {
+          "category": "processing",
+          "value": 4910.779202739457
+        },
+        {
+          "category": "transport",
+          "value": 12218.172921714537
+        },
+        {
+          "category": "leasing",
+          "value": 1632.2718600522062
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 7477.644615407008
+        },
+        {
+          "category": "electricity",
+          "value": 160103.53763818438
+        },
+        {
+          "category": "steam",
+          "value": 157685.0721013032
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "0729",
+    "region": "SK"
+  },
+  "isic": "0729",
+  "region": "SK",
+  "scopes": [
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "processing",
+          "value": 45348.315878693225
+        },
+        {
+          "category": "electricity",
+          "value": 458.2687347684882
+        },
+        {
+          "category": "energyRelated",
+          "value": 135216.48725715955
+        },
+        {
+          "category": "waste",
+          "value": 44606.49415436479
+        },
+        {
+          "category": "travel",
+          "value": 28977.14783506425
+        },
+        {
+          "category": "hotel",
+          "value": 5511.87855591027
+        },
+        {
+          "category": "leasing",
+          "value": 4197.843748079243
+        },
+        {
+          "category": "product",
+          "value": 576568.403948597
+        },
+        {
+          "category": "transport",
+          "value": 33255.138648384476
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 213411.12472575036
+        },
+        {
+          "category": "steam",
+          "value": 96854.81502159906
+        },
+        {
+          "category": "electricity",
+          "value": 956666.7428599714
+        }
+      ]
+    },
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 6871686.527704191
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "3812",
+    "region": "EE"
+  },
+  "isic": "3812",
+  "region": "EE",
+  "scopes": [
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "electricity",
+          "value": 239.7166046739275
+        },
+        {
+          "category": "travel",
+          "value": 25074.46873455012
+        },
+        {
+          "category": "transport",
+          "value": 36739.64903456286
+        },
+        {
+          "category": "leasing",
+          "value": 3062.6996461908975
+        },
+        {
+          "category": "waste",
+          "value": 14384.441190826987
+        },
+        {
+          "category": "energyRelated",
+          "value": 67695.84372522178
+        },
+        {
+          "category": "hotel",
+          "value": 15192.66846489194
+        },
+        {
+          "category": "processing",
+          "value": 4799.670836009546
+        },
+        {
+          "category": "product",
+          "value": 199970.23651093373
+        }
+      ]
+    },
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 133544.76918605904
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "electricity",
+          "value": 1584378.1049127923
+        },
+        {
+          "category": "heat",
+          "value": 11388.240737415314
+        },
+        {
+          "category": "steam",
+          "value": 62865.260575691675
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "isic": "2892",
+    "region": "MX"
+  },
+  "isic": "2892",
+  "region": "MX",
+  "scopes": [
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 20573.504939691506
+        }
+      ]
+    },
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "product",
+          "value": 357442.5963254829
+        },
+        {
+          "category": "travel",
+          "value": 22806.147981785874
+        },
+        {
+          "category": "energyRelated",
+          "value": 51610.798062263544
+        },
+        {
+          "category": "electricity",
+          "value": 79.90182898335044
+        },
+        {
+          "category": "processing",
+          "value": 37526.94652046905
+        },
+        {
+          "category": "hotel",
+          "value": 2454.6528605450085
+        },
+        {
+          "category": "leasing",
+          "value": 1674.4606951107787
+        },
+        {
+          "category": "waste",
+          "value": 70116.38512532164
+        },
+        {
+          "category": "transport",
+          "value": 10251.273962905889
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "heat",
+          "value": 17019.03083444047
+        },
+        {
+          "category": "electricity",
+          "value": 282145.0131205961
+        },
+        {
+          "category": "steam",
+          "value": 10577.349466500544
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6163ca3a1b691f2f5cbb1502"
+  },
+  "isic": "7500",
+  "sector": "Other business activities",
+  "region": "SE",
+  "scopes": [
+    {
+      "scope": "Scope 3",
+      "categories": [
+        {
+          "category": "processing",
+          "value": 24934.602962985933
+        },
+        {
+          "category": "leasing",
+          "value": 3147.472956788748
+        },
+        {
+          "category": "energyRelated",
+          "value": 63552.35123337054
+        },
+        {
+          "category": "travel",
+          "value": 29447.073258764398
+        },
+        {
+          "category": "product",
+          "value": 197795.57305052242
+        },
+        {
+          "category": "transport",
+          "value": 35377.387742168125
+        },
+        {
+          "category": "waste",
+          "value": 4609.160740093767
+        },
+        {
+          "category": "electricity",
+          "value": 197.05438757562624
+        },
+        {
+          "category": "hotel",
+          "value": 10405.65692096696
+        }
+      ]
+    },
+    {
+      "scope": "Scope 1",
+      "categories": [
+        {
+          "category": "direct emissions",
+          "value": 101764.71953179911
+        }
+      ]
+    },
+    {
+      "scope": "Scope 2",
+      "categories": [
+        {
+          "category": "electricity",
+          "value": 279727.0386871619
+        },
+        {
+          "category": "steam",
+          "value": 135177.60578189782
+        },
+        {
+          "category": "heat",
+          "value": 7156.97189172823
+        }
+      ]
+    }
+  ]
+}]
